@@ -1,7 +1,7 @@
-body{background-image: linear-gradient( to right, rgb(241, 30, 118),rgba(173, 74, 208, 0.692),rgb(101, 11, 101) );}
+body{background-image: linear-gradient( to right, rgb(241, 30, 118),rgba(173, 74, 208, 0.692),rgb(101, 11, 101) );}/* background color starts at pink moves to mid shade then darker purple runs right to left*/
 
 
-#main{background-color: rgb(231, 188, 239);
+#main{background-color: rgb(231, 188, 239);/*base background color*/
     animation-name: main;/*name of keyframe used */
     animation-duration: 4s;/* how long animation last */
     animation-iteration-count: infinite;/*how often does it run*/
@@ -11,10 +11,10 @@ body{background-image: linear-gradient( to right, rgb(241, 30, 118),rgba(173, 74
      padding: 20px;/*space between */
    
 }
-@keyframes main{
-    from{background-color: rgb(231, 188, 239)}
-    to{background-color: blueviolet;}}
+@keyframes main{/*controls how colors are changed */
+    from{background-color: rgb(231, 188, 239)}/*starts with color*/
+    to{background-color: blueviolet;}}/*ends with color*/
 
-p{font-size: x-large;}
+p{font-size: x-large;}/*makes font larger*/
 
-h1{ border: 8px dotted rgb(255, 5, 134);}
+h1{ border: 8px dotted rgb(255, 5, 134);}/*adds dotted trim */
